@@ -89,6 +89,7 @@ function updateSubtitleStyle(style) {
 // Update Subtitles
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function updateSubtitles(speech) {
+    console.log(speech);
     if (speech && speech['style']) subtitleStyle = speech['style'];
     updateSubtitleStyle(subtitleStyle);
     speech.style = subtitleStyle;
