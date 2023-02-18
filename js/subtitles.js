@@ -36,7 +36,7 @@ function getJSON(url) {
 // Translate text
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
      
-function translate(text) {
+function translate_text(text) {
     if (translate) {
         var url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl="+ language + "&tl=" + translate + "&dt=t&q=" + encodeURI(text);
 
@@ -118,7 +118,7 @@ function updateSubtitleStyle(style) {
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function updateSubtitles(speech) {
     // Apply translation
-    speech["phrase"] = translate(speech["phrase"]);
+    speech["phrase"] = translate_text(speech["phrase"]);
     console.log(speech);
     
     if (speech && speech['style']) subtitleStyle = speech['style'];
