@@ -13,12 +13,40 @@ const introText       = uripart('introtext')  || 'Start talking.';
 const continuous      = uripart('continuous') || 'on';
 const mic             = uripart('mic')        || 'on';
 const language        = uripart('language')   || uripart('lang') || null;
+const translate       = uripart('translate')  || uripart('tran') || null;
 const subkey          = uripart('subkey')     || defaultSubkey;
 const pubkey          = uripart('pubkey')     || defaultPubkey;
 const channel         = uripart('channel')    || username() || askchannel() || defaultChannel;
 const maxWords        = uripart('maxwords')   || defaultMaxWords;
 let   subtitleStyle   = uripart('style')      || defaultStyle;
 
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// Get parsed JSON
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+     
+function getJSON(url) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", url, false);
+    xmlHttp.send(null);
+    return JSON.parse(xmlHttp.responseText);
+}
+
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// Translate text
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+     
+function translate(text) {
+    if (translate) {
+        var url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl="+ language + "&tl=" + translate + "&dt=t&q=" + encodeURI(text);
+
+        return getJSON(url)[0][0][0];
+    }
+    else {
+        return text;
+    }
+}
+     
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Ask for Channel
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -89,7 +117,10 @@ function updateSubtitleStyle(style) {
 // Update Subtitles
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function updateSubtitles(speech) {
+    // Apply translation
+    speech["phrase"] = translate(speech["phrase"]);
     console.log(speech);
+    
     if (speech && speech['style']) subtitleStyle = speech['style'];
     updateSubtitleStyle(subtitleStyle);
     speech.style = subtitleStyle;
