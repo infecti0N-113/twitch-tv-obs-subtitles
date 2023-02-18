@@ -33,7 +33,7 @@ However you may wish to set the language to English.
 
 The following will change the language to USA English:
 
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?language=es-US
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?language=es-US
 
 You can change the language to any language code.
 The following are just a few examples:
@@ -63,7 +63,7 @@ However some may have relied on this.
 
 To downgrade the algorithm, use the `continuous=off` parameter.
 
-> https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?continuous=off
+> https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?continuous=off
 
 The above link will downgrade your voice-to-text to the old algorithm.
 
@@ -79,15 +79,15 @@ Some defaults are available for you.
 
 Here are some pre-built options to try:
 
- - Clean: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=color%3Argba(0%2C0%2C0%2C.9)%3Btext-shadow%3A0%200%205px%20%23fff
- - CC Caption: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px
+ - Clean: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=color%3Argba(0%2C0%2C0%2C.9)%3Btext-shadow%3A0%200%205px%20%23fff
+ - CC Caption: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px
 
 
 ![closed-caption](https://user-images.githubusercontent.com/45214/81862816-1fe75300-951f-11ea-9cde-ebd7ad881654.gif)
  
  
- - Blue: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=color%3A%2300f%3Bfont-weight%3A400%3Btext-shadow%3A0%200%205px%20%23fff
- - Rainbow: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=background%3Alinear-gradient(to%20right%2Corange%2C%23ff0%2Cgreen%2C%230ff%2C%2300f%2Cviolet)%20100%25%3Bfont-weight%3A800%3B-webkit-background-clip%3Atext%3B-webkit-text-fill-color%3Atransparent%3Btext-shadow%3Anone
+ - Blue: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=color%3A%2300f%3Bfont-weight%3A400%3Btext-shadow%3A0%200%205px%20%23fff
+ - Rainbow: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1588208805983537980353&style=background%3Alinear-gradient(to%20right%2Corange%2C%23ff0%2Cgreen%2C%230ff%2C%2300f%2Cviolet)%20100%25%3Bfont-weight%3A800%3B-webkit-background-clip%3Atext%3B-webkit-text-fill-color%3Atransparent%3Btext-shadow%3Anone
  
 ![rainbow](https://user-images.githubusercontent.com/45214/81860401-8b2f2600-951b-11ea-9a0d-a7513dd63f20.gif)
 
@@ -103,10 +103,10 @@ You can change this by setting the following:
 
 > Don't go lower than 2 seconds. It will cause unexpected problems for you.
 
- - Clear Text after 2 Seconds: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=2
- - Clear Text after 5 Seconds: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=5
- - Clear Text after 10 Seconds: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=10
- - Clear Text after 100 Seconds: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=100
+ - Clear Text after 2 Seconds: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=2
+ - Clear Text after 5 Seconds: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=5
+ - Clear Text after 10 Seconds: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=10
+ - Clear Text after 100 Seconds: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?cleartime=100
 
 And so on, you can change the value to any valid number.
 Just don't go lower than 2 seconds.
@@ -117,9 +117,9 @@ Using the default of 4 seconds is recommended.
 By default the intro text is set to "Start talking."
 You can change this value to anything you'd like:
 
- - Intro Text BLANK: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=%20
- - Intro Text "Hello!": https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=Hello!
- - Intro Text "Whatup": https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=Whatup
+ - Intro Text BLANK: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=%20
+ - Intro Text "Hello!": https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=Hello!
+ - Intro Text "Whatup": https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?introtext=Whatup
 
 ## Display Last Two Lines
 
@@ -128,7 +128,7 @@ You want to set the display to show only the last two lines.
 
 There's a way to crop using CSS like this `bottom:92vh`.
 
-> https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px;bottom:92vh
+> https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px;bottom:92vh
 
 ![Closed Captions Last Two Lines](https://user-images.githubusercontent.com/45214/81858459-a3517600-9518-11ea-8963-1eb4faaea858.gif)
 
@@ -137,7 +137,7 @@ For example you may wish to fine-tune the crop effect using the calc operator:
 
 `bottom:calc(100vh%20+%201.3em)`
 
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px;bottom%3Acalc(100vh%20%2B%201.3em)
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?style=background%3A%23000%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px;bottom%3Acalc(100vh%20%2B%201.3em)
 
 Essentially you can add the CSS in the URL, or you can 
 customize the look and feel by [forking the repo and editing the HTML directly](https://github.com/stephenlb/twitch-tv-obs-subtitles/fork).
@@ -149,7 +149,7 @@ Nyan Cat subtitles, just in case.
 
 ![nyan-preview](https://user-images.githubusercontent.com/45214/81875360-f76a5380-9534-11ea-9600-3eb4eec0a8f6.gif)
 
-> Try it here: https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles-nyan.html?channel=MYCHANNEL
+> Try it here: https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles-nyan.html?channel=MYCHANNEL
 
 Since **Twitch Subtitles** and Streaming Closed Captions are open source and free tool, 
 it's open to fully customize the display any way you like.
@@ -158,7 +158,7 @@ it's open to fully customize the display any way you like.
 
 Setting the maximum display words is easy using this URL parameter:
 
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?maxwords=10
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?maxwords=10
 
 This will display a maximum of 10 words, just as an example.
 Exclude the parameter to remove the limit.
@@ -169,7 +169,7 @@ If you want this page to only be used to display your voice transcript
 you can disable the microphone.
 This allows you to share a URL that is read-only.
 
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?mic=off&subkey=sub-c-XXXX&channel=XXXX
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?mic=off&subkey=sub-c-XXXX&channel=XXXX
 
 Note that you need to specify the Subscribe Key and Channel,
 while excluding the Publish Key.
@@ -182,7 +182,7 @@ Only expose the Publish Key to your self, and do not share the key.
 
 You can get a new key at https://dashboard.pubnub.com/
 
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?mic=off&subkey=sub-c-XXXX&pubkey=pub-c-XXX&channel=XXXX
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?mic=off&subkey=sub-c-XXXX&pubkey=pub-c-XXX&channel=XXXX
 
 
 ## Running Twitch.TV Subtitles from Local Files on your Hard Drive
@@ -229,7 +229,7 @@ python -m SimpleHTTPServer 8080
 The URL will look similar to this:
 
 ```shell
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1552687539739502028833&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&channel=1552687539739502028833&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
 ```
 
 > **Keep [Subtitles Twitch.TV Page](https://www.pubnub.com/developers/twitch-tv-obs-subtitles/) open.**
@@ -237,7 +237,7 @@ https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?subkey=sub-c-
 
 #### 4.) Modify the copied URL from Step 3 by replacing
 
-**`https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html`** with
+**`https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html`** with
 
 **`http://0.0.0.0:8080/subtitles.html`**.
 
@@ -293,7 +293,7 @@ function username() {
 It will look similar to this:
 
 ```shell
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?channel=1552687539739502028833&subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?channel=1552687539739502028833&subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
 ```
 
 #### 3.) Modify the copied URL from Step 2 by replacing
@@ -305,7 +305,7 @@ https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?channel=15526
 #### 4.) Point your Chrome Browser to: 
 
 ```shell
-https://stephenlb.github.io/twitch-tv-obs-subtitles/subtitles.html?channel=MY_TWITCH_ID_HERE&subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?channel=MY_TWITCH_ID_HERE&subkey=sub-c-79b0a26a-80a9-11e8-8f4a-96bbd71e7d14&pubkey=pub-c-fd9b97a4-7b78-4ae1-a21e-3614f2b6debe&style=background%3Ablack%3Bfont-weight%3A600%3Btext-transform%3Auppercase%3Btext-shadow%3Anone%3Bpadding%3A10px%3B
 ```
 
 > Warning! Make sure only **one Twitch.TV Subtile Page** is open.
