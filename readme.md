@@ -33,7 +33,7 @@ However you may wish to set the language to English.
 
 The following will change the language to USA English:
 
-https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?language=es-US
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?language=en-US
 
 You can change the language to any language code.
 The following are just a few examples:
