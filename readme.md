@@ -47,6 +47,27 @@ The following are just a few examples:
 More language codes shown here:
 https://www.w3schools.com/tags/ref_language_codes.asp
 
+## Set translation
+
+Default there is no translation.
+However you may wish add translate for your speech.
+
+The following will change the language to Russian:
+
+https://infecti0n-113.github.io/twitch-tv-obs-subtitles/subtitles.html?language=en-US&translate=ru_RU
+
+You can change the language to any language code.
+The following are just a few examples:
+
+ - English: `translate=en-US`
+ - Spanish: `translate=es`
+ - Mandarin: `translate=zh`
+ - German: `translate=de`
+ - Japanese: `translate=ja`
+
+More language codes shown here:
+https://www.w3schools.com/tags/ref_language_codes.asp
+
 ## V1 Old Voice Setting - Downgrade Option
 
 > We've recently upgraded the voice detection algorithm!
